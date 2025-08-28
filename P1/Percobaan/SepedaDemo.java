@@ -1,4 +1,4 @@
-package SepedaDemo;
+package P1.Percobaan;
 
 public class SepedaDemo 
 {

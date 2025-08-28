@@ -1,5 +1,6 @@
-package SepedaDemo;
-    public class SepedaGunung extends Sepeda 
+package P1.Percobaan;
+
+public class SepedaGunung extends Sepeda 
 {
     private String tipeSuspensi;
 
