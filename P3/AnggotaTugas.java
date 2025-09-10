@@ -34,14 +34,13 @@ public class AnggotaTugas {
     }
 
     public void angsur(int uang) {
-        if (uang >= (jumlahPinjaman * 0.1)) { 
-            jumlahPinjaman -= uang;
-        } else {
+        if (uang < (jumlahPinjaman * 0.1)) { 
             System.out.println("Maaf, angsuran harus minimal 10% dari jumlah pinjaman.");
-        }
-
-        if (jumlahPinjaman < 0) {
-            jumlahPinjaman = 0; 
+        } else {
+            jumlahPinjaman -= uang;
+            if (jumlahPinjaman < 0) {
+                jumlahPinjaman = 0; 
+            }
         }
     }
 }
