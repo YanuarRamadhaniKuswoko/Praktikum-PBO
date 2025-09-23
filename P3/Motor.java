@@ -1,4 +1,4 @@
-package P3.MotorEncapsulation;
+package P3;
 
 public class Motor {
     private int kecepatan = 0;
@@ -45,3 +45,4 @@ public class Motor {
         System.out.println("Kecepatan " + kecepatan + "\n");
     }
 }
+

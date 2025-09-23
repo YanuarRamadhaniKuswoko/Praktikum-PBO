@@ -1,4 +1,6 @@
-package P3.MotorEncapsulation;
+package P3;
+
+import P3.MotorEncapsulation.Motor;
 
 public class MotorDemo {
     public static void main(String[] args) {
